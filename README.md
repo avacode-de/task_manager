@@ -16,7 +16,6 @@ This repository created only for learning. This project i created to explore lib
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/avacode-de/task_manager.git
-    cd telegram-image-gen-bot
     ```
 
 2. **Install requirements**
