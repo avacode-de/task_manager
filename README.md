@@ -10,7 +10,7 @@ This repository created only for learning. This project i created to explore lib
 ## Requirements
 
 - **Python 3.x**
-- **FastaApi**
+- **FastApi**
 - **sqlalchemy**
 
 1. **Clone the repository:**
