@@ -21,5 +21,5 @@ class TaskRepository:
             query = select(TasksOrm) #getting request from sql (using sqlalchemy)
             result = await session.execute(query)
             task_modules = result.scalars().all()
-            task_schemas = [STask.model_validate(task_module) for task_module in task_modules] #validating task schemas as pydantic
-            return task_modules
+            task_schemas = [STask.model_validate(task_module.__dict__) for task_module in task_modules] #validating task schemas as pydantic
+            return task_schemas
